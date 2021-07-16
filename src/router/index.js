@@ -18,17 +18,18 @@ const routes = [
                 },
                 component: () => import('./../views/Home/Welcome/index.vue'),
             },
-            {
-                name: 'Login',
-                path: '/login',
-                meta: {
-                    title: '登陆'
-                },
-                component: () => import('./../views/Login/index.vue'
-                ),
-            },
+
         ]
-    }
+    },
+    {
+        name: 'Login',
+        path: '/login',
+        meta: {
+            title: '登陆'
+        },
+        component: () => import('./../views/Login/index.vue'
+        ),
+    },
 ]
 
 
